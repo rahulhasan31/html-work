@@ -1,0 +1,150 @@
+/* Apply basic styles to the body */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+  margin: 0;
+  padding: 0;
+}
+.about_me {
+  background-color: lightseagreen;
+  text-align: center;
+  padding: 30px;
+  margin: 30px;
+  border-radius: 10px;
+  color: white;
+  font-size: 20px;
+}
+.assignment_work {
+  text-align: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  text-decoration: none;
+  font-size: 30px;
+}
+.home-a {
+  background-color: burlywood;
+  padding: 10px 20px;
+  border: none;
+  color: white;
+  border-radius: 10px;
+}
+.home-button {
+  color: white;
+  font-size: 20px;
+}
+.my {
+  color: white;
+}
+/* Style the header */
+header {
+  text-align: center;
+  padding: 20px;
+}
+
+/* Style the header image */
+header img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+/* Style the main content */
+main {
+  max-width: 100%;
+  margin: 20px auto;
+  background-color: #f2f2f2;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Style headings */
+h1,
+h2 {
+  color: #333;
+}
+
+/* Style paragraphs */
+p {
+  line-height: 1.6;
+}
+
+/* Style lists */
+ul,
+ol {
+  margin-left: 20px;
+}
+
+/* Style links */
+a {
+  color: #0077cc;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+a:hover {
+  color: #0055aa;
+}
+
+/* Apply responsive styles for small screens */
+@media (max-width: 768px) {
+  header img {
+    width: 100%;
+    height: auto;
+  }
+  main {
+    padding: 10px;
+  }
+}
+
+/* Style the hobby section container */
+.hobbi-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  font-size: 20px;
+}
+
+/* Style the individual sections */
+.my_hobbies,
+.my_top_subjects {
+  flex: 1;
+  max-width: 45%; /* Adjust as needed to control the width of each section */
+  margin: 10px;
+  background-color: lightseagreen;
+  padding: 20px;
+  border-radius: 5px;
+
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Style headings */
+h2 {
+  color: white;
+}
+
+/* Style lists */
+ul,
+ol {
+  margin: 10px 0;
+  padding-left: 20px;
+}
+
+/* Style list items */
+li {
+  margin-bottom: 5px;
+  color: white;
+}
+
+/* Apply responsive styles for small screens */
+@media (max-width: 768px) {
+  .hobbi-section {
+    flex-direction: column;
+  }
+
+  .my_hobbies,
+  .my_top_subjects {
+    max-width: 100%;
+    margin: 10px 0;
+  }
+}
